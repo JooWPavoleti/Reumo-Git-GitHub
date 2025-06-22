@@ -53,6 +53,7 @@ Reset - -hard: A utilização desse comando irá desfazer todos os arquivos salv
 Se eu quiser ter um histórico mais detalhado das alterações que fiz – git reflog
 
 Para conectar os dois repositórios, do GitHub no da máquina – git remote add origin (COLOCAR A URL DO REPOSITÓRIO DO GITHUB).
+
 Comando responsável por enviar as alterações do repositório local (máquina) para o repositório remoto (GitHub), ou seja, ele puxa e mescla as alterações salvas da máquina para o GitHub – git push
 - Complementações do comando “git push”
 -u: responsável por dizer ao git para mesclar as branches do local e remoto, ou seja,configurar e mostrar ao Git que a main “origin” do repositório remoto (GitHub) está conectada e mesclada a main do repositório local (máquina) indicando assim qual banche puxar.
@@ -60,6 +61,7 @@ Comando responsável por enviar as alterações do repositório local (máquina)
 Git push: é o comando para puxar as alterações entre os repositórios
 -u: configuração para dizer ao Git as branches a serem mescladas do repositório remoto e local
 
+Comando responsável para enviar as alterações realizadas no repositório remoto (GitHub) para o repositório local (máquina), ou seja, mescla as alterações realizadas do GitHub para o repositório da máquina – git pull
 - README – é o lugar no repositório local, onde irei colocar tudo que compõe meu projeto, a descrição, o que representa, imagens, diagramas, tudo que existe e que seja importante do projeto, todo histórico.
 - MARKDOWN – Forma de linguagem de marcação simples, tipo URLL, editando textos, etc.
 --------
